@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the repository
-                git branch: 'main', url:https://github.com/vnaidu563/jentf.git
+                 echo 'checkout successful'
             }
         }
         stage('Terraform Init') {

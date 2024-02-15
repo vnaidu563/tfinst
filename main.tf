@@ -11,5 +11,5 @@ resource "aws_instance" "TFInstance" {
 }
 
 output "public_ip" {
-    value= aws_instance.JenTFInst.public_ip
+    value= aws_instance.TFInstance.public_ip
 }
